@@ -22,7 +22,6 @@ public class Collision : MonoBehaviour {
 
         // Collision check and change properties
         if(other.transform.tag == "Box"){
-            SR.color = Color.magenta;
             HasPackage = true;
             Boxes++;
             Destroy(other.gameObject);
